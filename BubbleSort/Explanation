@@ -1,0 +1,22 @@
+
+* Sorting using bubble sort
+
+Explanation: 
+
+    In the bubble sort algorithm, it checks the first two elements if the first element is greater than then the second element 
+then it swaps the element and this process will run till the length of the array.
+
+    In bubble sort, after the first iteration, we get the largest element at the last position.
+
+Test Cases:
+
+1) If all elements of an array are the same
+2) if the user wrong type of data
+
+
+
+Example
+
+Input: [5, 6, 7, 8, 4]
+
+Output: [4, 5, 6, 7, 8]
