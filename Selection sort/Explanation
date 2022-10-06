@@ -1,0 +1,20 @@
+- Sorting using Selection sort
+
+Explanation:
+
+In the selection sort algorithm, initially, it takes the first element as the smallest element and after that, it compares it with another element if the next element is lesser than the selected element then these two elements are swapped.
+
+Test Cases:
+
+1. If all elements of an array are the same
+2. if the user wrong type of data
+
+Example
+
+Input: [5, 6, 7, 8, 4]
+
+Output: [4, 5, 6, 7, 8]
+
+I would like to thank VIT Bhopal University for supporting me.
+
+here you can check my code:
