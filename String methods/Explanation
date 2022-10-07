@@ -1,0 +1,25 @@
+        
+1. length() :-
+    length gives us a length of string.
+        
+2. charAt() :-
+    charAt method which gives us a character which is present in specific index
+    of string.
+
+3. substring() :-
+    substring method gives us a specific part of string which is entered by user.
+
+4. equal() :-
+    equal method check if two strings are equal or not.
+        
+5. equalIgnoreCase() :-
+    equalIgnoreCase method compare two string by ignoring case.
+
+6. tolowercase() :-
+    tolowercase method convert the string into lower case.
+
+7. touppercase() :-
+    touppercase method convert the string into upper case.
+
+8. trim() :-
+    trim method removes white space from beginning and end.
