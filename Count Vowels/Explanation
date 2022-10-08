@@ -1,0 +1,15 @@
+Explanation:
+
+In this program, we check each character of a string if it contains vowels or not if it contains vowels then we increase the count, and last we display the vowels and count.
+
+Test Cases:
+
+1. if two vowels are the same
+
+Example
+
+Input: Vit Bhopal University
+
+Output: [i o a u i e i]
+
+        Number of Vowels in the string: 7
