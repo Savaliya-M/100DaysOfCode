@@ -1,3 +1,5 @@
+package countWordsFromCamelcaseString;
+
 import java.util.Scanner;
 
 public class countWordsFromCamelcaseString {

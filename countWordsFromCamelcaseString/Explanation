@@ -1,0 +1,17 @@
+Question :- count words from the camelCase String.
+
+Explanation:
+
+        In this program, we first convert the string into a character array and after that, we take one for
+loop and check if the ith element of the array is capital if the condition is true then we increment the count
+by one and after all iterations, we return count+1 because in camel case string first word the first character
+is not capital.
+
+Test Cases:
+1) if the string is not in camel case
+
+Example
+
+Input: saveChangesInTheEditor
+Output: 5
+Number of words in the string: 5
