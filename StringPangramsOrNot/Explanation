@@ -1,0 +1,21 @@
+How to find that string is pangrams or not.
+
+what is pangram?
+
+        A pangram is a string that contains every letter of the alphabet.
+
+Test Cases:
+
+1) if the string is a numerical or special character
+
+Explanation:
+
+    In this program, we first take one string that contains all alphabets and after that, we convert this string into a character array. we take one another string as input we have to check whether this string is a pangram or not and then we convert this string into lowercase.
+
+    After that, we take one foreach loop for the character array and check if the input string contains that character if the string did not contain that character then we change the result variable to not pangram and return this result.
+
+Example
+
+Input: We promptly judged antique ivory buckles for the next prize
+
+Output: pangram
