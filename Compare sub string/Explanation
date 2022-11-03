@@ -1,0 +1,17 @@
+how to find common substrings from given two strings. and a substring may be as small as one character.
+
+Test Cases:
+1) if the string is not shared any common substring
+
+Explanation:
+
+        In this program first, we take two strings as input from the user, and then we convert both strings into a char array using charArrays() inbuilt function and then we check which string is greater. After checking that we take two for loops outer for loop for smaller strings and an inner for loop for long string.
+
+        Then we check first letter of a smaller string with all characters of the other string and if it matches then we simply change our result variable to "YES" else we make it "NO" and at last we return this result variable.
+
+Example
+
+Input:  Enter the string 1 : Hello
+        Enter the string 2 : World
+
+Output: Result = YES
