@@ -1,0 +1,18 @@
+create a class named Arithmetic with a method named add that takes integers as parameters and returns an integer denoting their sum.
+also create one another class named Adder that inherits from a superclass named Arithmetic.
+
+Test Cases:
+
+1) what if the root class is private
+
+Explanation:
+
+        In this program, we create three classes one is the inheritance class in which I place the main method. I have created on superclass called Arithmetic in which I have one method add. which takes two integer value as a parameter and return the sum of this two value.
+
+        I have also created one subclass Adder which inherits the Arithmetic class and has one display method. in the main class, we create an object of the adder class and call this add method of superclass using the object of subclass and display the sum of two numbers as output.
+
+Example
+
+Input: 10  32
+
+Output: 42 
