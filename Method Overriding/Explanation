@@ -1,0 +1,13 @@
+write super.func() to call the function func(), it will call the method that was defined in the superclass.
+
+Explanation:
+
+        In this program, we create three classes one is the MethodOverriding which has the main method I also have one superclass which has the define_me method, and also I have one subclass which also has the same define_me method, and one constructor which calls the define_me method of superclass using super keyword.
+
+        In the main method, we create one object of a subclass which automatically calls the constructor.
+
+Example
+
+Output: Hello I am a motorcycle, I am a cycle with an engine.
+
+        My ancestor is a cycle who is a vehicle with pedals.
