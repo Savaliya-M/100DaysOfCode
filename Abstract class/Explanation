@@ -1,0 +1,18 @@
+create one class that extends the abstract class. Then create an instance of the new class and implements the 
+superclass method and call it by creating object of subclass.
+
+Explanation:
+
+        In this program, we create three classes one is the AbstractClass which has the main method I also 
+have one superclass which has the prototype of the setTitle method, and one another method getTitle which only 
+returns the title variable is also there.
+
+        I have one subclass which extends the superclass and there I implement the setTitle method of the 
+superclass this method takes one parameter s as string type and simply i assign this variable to the title 
+variable. In the main method, I create an object of the subclass and call the setTitle method by passing a 
+string as an argument.
+
+Example
+
+Input: Enter the title: A tale of two cities
+Output: The title is: A tale of two cities
