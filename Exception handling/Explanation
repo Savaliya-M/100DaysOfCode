@@ -1,0 +1,15 @@
+create one method for withdrawal if the available balance is lesser then minimum required balance then genrate the user define exception "your current balance is lesser then minimum limit."
+
+Explanation:
+
+In this program i create one class in that class i create one method withdraw in this method first i take withdraw amout from user and after that we check if current balance of account is lesser then the minimum balance required for account if  this condition become true then we throw the user define method.
+
+Which has the message "your current balance is lesser then minimum limit."  if this condition become false then we deduct the withdrawal amount from available balance and display the available balance. and then we call this method from main method.
+
+Example
+
+Input: how much amount you want to withdrawal : 500
+
+Output: Exception in thread "main" java.lang.Exception: your current balance is lesser then minimum limit.
+
+
