@@ -1,0 +1,20 @@
+create a program that takes two integer input and apply a division operation if the user provides the wrong type of data then gives the error message according to the error using an inbuild exception also if the user tries to divide any number by zero then also gives the error message according.
+
+Explanation:
+
+In this program, I create one class in which I create to try and catch a block for exception handling within this try block first I take input from the user for two integer numbers. if the user will give the input of the wrong type then I catch this InputMismatchException on the catch block and display the message accordingly.
+
+In this try block, I have created a nested try block in which I perform the arithmetic operation division. if the user wants to try the division of any number by zero then I catch this ArithmeticException on the catch block and display the message accordingly.
+
+Test cases :
+
+1) if the user gives the input of wrong datatype
+
+2) if user try to divide any number by zero
+
+Example
+
+Input: x : 5
+       y : 0
+
+Output: java.lang.ArithmeticException: / by zero
