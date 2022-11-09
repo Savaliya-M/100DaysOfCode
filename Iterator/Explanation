@@ -1,0 +1,30 @@
+Question :
+
+Create a method func. The method takes an ArrayList as input. In that ArrayList there are one or more integer 
+numbers, then there is a special string "###", after that there are one or more other strings. So the other 
+strings after "###" you have to print.
+
+Explanation:
+
+In this program, I create one function which takes the ArrayList as input and then first creates an iterator 
+for mylist ArrayList after that I take one while loop which runs until the ArrayList has any value in it.
+
+In this while loop, I create an object for a current item of ArrayList and then I check if the current element 
+is an instance of a string if this condition satisfies then I break the while loop and return the it.
+and then in the main method, I display the remaining list.
+
+Test cases :
+
+1) if the "###" is not in the list
+
+Example
+
+Input: 2 2
+        42
+        10
+        hello
+        java
+
+Output: hello
+        java
+
