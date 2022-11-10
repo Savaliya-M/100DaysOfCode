@@ -1,0 +1,33 @@
+Question :
+
+create two classes even and odd and using the thread class give the max priority to the odd class object and 
+min priority to the event class object and then call both classes using an appropriate method of the thread 
+class.
+
+Explanation:
+
+In this program, I create two classes that extend the thread class even and odd in this in this class I print
+the first five even or odd numbers I implement this logic of even and odd in the run method of the thread
+class. 
+
+Also, I create another class in which I first create the object of even and odd class, and then I set the
+priority of that object means thread. I give max priority to the odd class and min priority to the even class 
+and then I class the start method using the object name this start method calls the run method of both classes. 
+
+while executing the program will run the odd class first and then the even class because I gave the max 
+priority to the odd class.
+
+Example: 
+Output: odd
+        1
+        3
+        5
+        7
+        9
+        even
+        2
+        4
+        6
+        8
+        10
+
