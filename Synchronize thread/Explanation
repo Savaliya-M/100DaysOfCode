@@ -1,0 +1,25 @@
+Question :
+
+create one counter method and make this method synchronize and then call this method from different threads five times.
+
+Explanation:
+
+While we use synchronize a method and call this method from a different thread then still it executes this thread in a synchronous way.
+
+In this program, I created one class synchronized thread which has one synchronized counter method in this method simply increment the I by one. Also, I create two other class thread 1 and thread 2 in this both class I implements the run method and in this run method, I simply call the counter method five-time.
+
+In the main method, I create objects of thread 1 and thread 2 and then I create two threads and pass the object.
+
+Example
+
+Output: 1
+        2
+        3
+        4
+        5
+        1
+        2
+        3
+        4
+        5
+
