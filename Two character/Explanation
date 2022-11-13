@@ -1,0 +1,16 @@
+Question :
+
+Given a string, remove characters until the string is made up of any two alternating characters. When you choose a character to remove, all instances of that character must be removed. Determine the longest string possible that contains just two alternating letters.
+
+Explanation:
+
+In this program, first, I create HashSet which will help me to figure out unique characters from the string, and after that, I convert this set into an array list for performing iteration on it. after that, I take two for loops to get the first and second characters from the string. and then I pass this character and string into the main function.
+
+In the main logic function, I take one for loop that runs till the last character of the string then I check the character is equal to any of the two characters and then we check if the character is arrived is equal to the last character then we return 0. else we assign character arrived to the last character and increment the count by one.
+
+Example
+
+Input:  10
+        beabeefeab
+
+Output: 5
