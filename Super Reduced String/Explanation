@@ -1,0 +1,21 @@
+Question :
+
+Reduce a string of lowercase characters in range ascii[‘a’..’z’]by doing a series of operations. In each operation, select a pair of adjacent letters that match, and delete them.
+
+Delete as many characters as possible using this method and return the resulting string. If the final string is empty, return the Empty String
+
+Explanation:
+
+In this program, First, I create one StringBuilder and pass the input string to it. and then I take one for a loop which starts from the second character and goes up to the last character. in this loop, I compare the ith character with the i-1th character if it is equal then I remove these characters from the StringBuilder and reset my I to 0.
+
+After that, I simply store the remaining character of StringBuilder to Resultant String, and then I check if the length of Resultant string is equal to 0 if yes then I return "Empty String" or else I return resultant string.
+
+Test Cases :
+
+1) if the string contains any special character or digit.
+
+Example: 
+
+Input: aaabccddd
+
+Output: abd
