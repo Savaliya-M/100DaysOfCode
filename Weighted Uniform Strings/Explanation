@@ -1,0 +1,27 @@
+Question :
+
+Given a string,s, let U be the set of weights for all possible uniform contiguous substrings of string s. There will be n queries to answer where each query consists of a single integer. Create a return array where for each query, the value is Yes if query[i](- U. Otherwise, append No.
+
+Explanation:
+
+In this program, first I take one for loop which iterates till the last character of string. and then I store inter value which is the ASCII value of the character minus 96 it's the actual weight of that character and then I check if the character arrived is equal to c if this is true then it means the previous character is equal to the current character. So, then I simply store the additional value of the previous character and current character.
+
+After that, I update the c by providing the ASCII value of the current character. after that simply check if the value of queries providing with the value stored in an array. if it matches then we store "Yes" in the resultant array and else we stores "No". At last, I return the resultant array.
+
+Example:
+
+Input: abccddde
+6
+1
+3
+12
+5
+9
+10
+
+Output: Yes
+Yes
+Yes
+Yes
+No
+No
