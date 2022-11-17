@@ -1,0 +1,26 @@
+Question :
+
+Perform q queries where each query consists of some integer string s. For each query, print whether or not the string is beautiful on a new line. If it is beautiful, print YES x, where x is the first number of the increasing sequence. If there are multiple such values of x, choose the smallest. Otherwise, print NO.
+
+Explanation:
+
+In this program, first, I take one for loop and I iterate this for loop for half of the length of string time. This loop is useful for making a pair of numbers. after that I make a substring of a number according to i means first I make a substring of one number then I make a substring of two numbers. then I assume it is a valid string.
+
+After that, I take one while loop which generates the incremented sequence of numbers. after that, I compare this incremented sequence with input if it matches then I update the valid to 1. And at last, I check if valid is equal to 1 if yes then I print "YES" and the first number of the sequence. else I print "NO".
+
+Test Cases :
+
+1) if the string contains 0 before the number.
+
+Example:
+
+Input:  4
+        99910001001
+        7891011
+        9899100 
+        999100010001
+
+Output: YES 999
+        YES 7
+        YES 98
+        NO
