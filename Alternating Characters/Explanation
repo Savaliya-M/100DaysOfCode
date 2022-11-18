@@ -1,0 +1,27 @@
+Question :
+
+You are given a string containing characters A and B only. Your task is to change it into a string such that there are no matching adjacent characters. To do this, you are allowed to delete zero or more characters in the string.
+Your task is to find the minimum number of required deletions.
+
+Explanation:
+
+In This program, I create one count variable and then I take one for loop which starts from the second character and goes up to last character, and compares the current character with its previous character if it matches then it increments the count by one. At last, I return the count variable.
+
+Test Cases :
+
+1) if the String contains a number.
+
+Example:
+
+Input:  5
+        AAAA
+        BBBBB
+        ABABABAB
+        BABABA
+        AAABBB
+
+Output: 3
+        4
+        0
+        0
+        4
