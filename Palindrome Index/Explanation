@@ -1,0 +1,24 @@
+Question :
+
+Given a string of lowercase letters in the range ascii[a-z], determine the index of a character that can be removed to make the string a palindrome. There may be more than one solution, but any will do. If the word is already a palindrome or there is no solution, return -1. Otherwise, return the index of a character to remove.
+
+Explanation:
+
+        In this program, I take one for loop which runs length of string / 2 times because in this loop I compare the first character with the last character of the string. If it not matches then I create one substring from where it doesn't match and call one function palindrome check and pass this string to that function.
+
+        In this second function simply check if this passed string is palindrome or not if it is palindrome then I return true else I return false. and in the first function, I store the response of this function's boolean variable, and then I check if this function returns true or false if it returns true then I return i because by removing the ith character from the string, String becomes a palindrome else I return s.length()-i-1 which means by removing this character string becomes a palindrome. If the whole string is already the palindrome then I return -1.
+
+Test Cases :
+
+1) if the String contains a number.
+
+Example:
+
+Input:  3
+        aaab
+        baa
+        aaa
+
+Output: 3
+        0
+        -1
