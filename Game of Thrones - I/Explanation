@@ -1,0 +1,17 @@
+Question :
+
+To lock the door he needs a key that is an anagram of a palindrome. He starts to go through his box of strings, checking to see if they can be rearranged into a palindrome. Given a string, determine if it can be rearranged into a palindrome. Return the string YES or NO.
+
+Explanation:
+
+In this program, I first count the occurrence of the character in the string, and accordingly, I increment the value in the char count array. after doing this I count if an odd count occurs more than one time if yes then I am not able to transform this string into palindrome so I return the "NO" else I return the "YES".
+
+Test Cases :
+
+1) if the String contains special characters.
+
+Example:
+
+Input: aaabbbb
+
+Output: YES
