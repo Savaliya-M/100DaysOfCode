@@ -1,0 +1,24 @@
+Question :
+
+Amanda has a string of lowercase letters that she wants to copy to a new string. She can perform the following operations with the given costs. She can perform them any number of times to construct a new string P:
+--Append a character to the end of string P at a cost of 1 dollar.
+--Choose any substring of P and append it to the end of P at no charge.
+
+Explanation:
+
+In this program, First, we create two variables String p and int count. After that, I take one for loop which runs for every character of the string. in this for loop First I take one String variable ch and store the ith character in it. 
+
+After that, we check if that character is present in the p String if it is not present then we increment the count variable and append this character to the and of the P String. At last, I return the count variable.
+
+Test Cases :
+
+1) if the String contains null characters.
+
+Example:
+
+Input:  2
+        abcd
+        abab
+
+Output: 4
+        2
