@@ -1,0 +1,33 @@
+Question :    
+
+In this challenge, you will determine whether a string is funny or not. To determine whether a string is funny,
+create a copy of the string in reverse e.g. abc -> cba. Iterating through each string, compare the absolute 
+difference in the ASCII values of the characters at positions 0 and 1, 1 and 2, and so on to the end. If the 
+list of absolute differences is the same for both strings, they are funny.
+
+Determine whether a given string is funny. If it is, return Funny, otherwise, return Not Funny.
+
+Explanation:
+
+In this program, first I convert the string int character array and then create an integer array for storing 
+the difference value. After that, I take one for loop which starts from the first character and goes up to the 
+second last character of the string. In this for loop simply calculate the difference between the ith character 
+and the i+1th character and store it in an arr array.
+
+After that again I take one for loop which starts from the first element of the arr array and goes up to 
+length/2 th element Because in this loop we compare our first element with the last element and the second 
+element with the second last element and so on. if it not satisfy then I simply return "Not Funny". In the 
+end, if the above condition not satisfies then I return the "Funny String".
+
+Test Cases :
+
+1) if the String contains a digit.
+
+Example:
+
+Input: 2
+        acxz
+        bcxz
+
+Output: Funny
+        Not Funny
