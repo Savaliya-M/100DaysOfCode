@@ -1,0 +1,16 @@
+Question :     
+
+A space explorer's ship crashed on Mars! They send a series of SOS messages to Earth for help.
+Letters in some of the SOS messages are altered by cosmic radiation during transmission. Given the signal received by Earth as a string, , determine how many letters of the SOS message have been changed by radiation.
+
+Explanation:
+In this program, First i take one for loop which starts from 0th character and goes up to s.length - 3th element. In each iteration I compare substring of three character with "SOS". If it doesn't match then I call countdifchar function and pass this substring then whatever output will comes from this function that i will add to the count variable. And at last I will return the count.
+
+In countdifchar function I compare first character with 'S' if it does not match then I increment the count variable and same for second and third I compare with 'O' and 'S'.At last I return the count variable.
+
+
+Example:
+
+Input:  SOSSPSSQSSOR
+
+Output: 3
