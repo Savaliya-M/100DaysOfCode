@@ -1,0 +1,18 @@
+Question :     
+Alice has a binary string. She thinks a binary string is beautiful if and only if it doesn't contain the 
+substring "010".
+
+In one step, Alice can change a 0 to a 1 or vice versa. Count and print the minimum number of steps needed to 
+make Alice see the string as beautiful.
+
+Explanation:
+In This program, First I convert the input string into a character array and then I take one for loop which starts from the second character and goes up to the last character. In this loop, I compare the i-1th character with 0, an ith character with 1, and the i+1th character with 0. If this condition not satisfies then I increment the count and at last, I return the count. 
+
+Test Cases :
+1) If string contains the string value.
+
+Example:
+
+Input:  7
+        0101010
+Output: 2
