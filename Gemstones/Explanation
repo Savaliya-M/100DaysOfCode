@@ -1,0 +1,27 @@
+Question :     
+There is a collection of rocks where each rock has various minerals embeded in it. Each type of mineral is designated by a lowercase letter in the range ascii[a-z]. There may be multiple occurrences of a mineral in a rock. A mineral is called a gemstone if it occurs at least once in each of the rocks in the collection.
+
+Given a list of minerals embedded in each of the rocks, display the number of types of gemstones in the collection.
+
+Explanation:
+In this program, First I create one count array and for loop which counts the number of occurrences of a specific character of the first string from the given array.  After that, I take one for a loop this loop will start from a second string of the array and goes up to the last string of the array. In this loop, I create one temp count array.
+
+
+
+Now, I count the occurrence of the character of the ith String and store it in the temp count array. and then Again I take one for loop and compare the count array with the temp count array if both arrays contain a value not equal to 0 then I assign 1 to the count array else 0 at the ith position. 
+
+
+
+At last, I take one for each loop which check if i == 1 If yes then it increments the NoOfGemStone variable by one and I return the NoOfGemStone.
+
+
+Test Cases :
+1) If string contains the digit.
+
+Example:
+
+Input:  3
+        abcdde
+        baccd
+        eeabg
+Output: 2
