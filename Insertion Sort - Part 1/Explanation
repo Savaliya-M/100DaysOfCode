@@ -1,0 +1,23 @@
+Question :      
+One common task for computers is to sort data. For example, people might want to see all their files on a 
+computer sorted by size. Since sorting is a simple problem with many different possible solutions, it is often 
+used to introduce the study of algorithms.
+
+Explanation:
+In this program, first, I take one for loop which starts from the second element and goes up to the last 
+element in this loop I take the ith element as the key. Then I create one variable j and assign it to i-1. 
+After that, I take one while loop which checks j >= 0, and the jth element is greater than the key if yes then 
+I swap this element with the j+1th element and decrement the j by one.
+
+After that, I print the array and then I update the value of j+1 with the key. And At last, again I print the 
+array.
+
+Example:
+
+Input:  5
+        2 4 6 8 3
+
+Output: 2 4 6 8 8
+        2 4 6 6 8
+        2 4 4 6 8
+        2 3 4 6 8
