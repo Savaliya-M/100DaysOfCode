@@ -1,0 +1,20 @@
+Question :      
+In the previous challenge, you wrote code to perform an Insertion Sort on an unsorted array. But how would you prove that the code is correct? I.e. how do you show that for any input your code will provide the right output?
+
+Explanation:
+In this program, I have to prove that the algorithm that I have written in the previous question is correct for all time or not by using Loop invariant. 
+
+To prove Insertion Sort is correct, I will then demonstrate it for the three stages:
+
+Initialization - The subarray starts with the first element of the array, and it is sorted, to begin with.
+
+Maintenance - Each iteration of the loop expands the subarray, but keeps the sorted property. An element V gets inserted into the array only when it is greater than the element to its left. Since the elements to its left have already been sorted, it means V is greater than all the elements to its left, so the array remains sorted. 
+
+Termination - The code will terminate after i has reached the last element in the array, which means the sorted subarray has expanded to encompass the entire array. The array is now fully sorted.
+
+Example:
+
+Input:  6
+        4 1 3 5 6 2
+
+Output: 1 2 3 4 5 6
