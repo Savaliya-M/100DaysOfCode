@@ -1,0 +1,37 @@
+Question :     after sorting 
+Consider an array of numeric strings where each string is a positive number with anywhere from  to  digits. 
+Sort the array's elements in non-decreasing, or ascending order of their integer values and return the sorted 
+array.
+
+Explanation:
+In this program, I use different methods to sort elements because there are some constraints like string may 
+of 10^6. Of course, we can solve it by any of the sorting techniques but in that method may be the time 
+complexity gets it bit higher. 
+
+So Here, First I use the sort method of the Collection class and pass the inputted list as well as alone with 
+I implements the compare method of the collection class and pass as an argument in that method simply I compare
+two String length because if the length of one string is greater than means that number is also bigger.
+
+So, I simply return 1 if the length of a is greater, -1 if the length of a is lesser and if both string is as 
+the same length then I compare those two strings using the compareTo method in this if a is greater than it 
+returns 1, if lesser than it returns -1 and equal than it returns the 0. At last I return the Inputted list 
+because now it's sorted.
+
+Test Cases :
+1) If string contains the character value.
+
+Example:
+
+Input:  6
+        31415926535897932384626433832795
+        1
+        3
+        10
+        3
+        5
+Output: 1
+        3
+        3
+        5
+        10
+        31415926535897932384626433832795
