@@ -1,0 +1,19 @@
+Question :     
+Sort the element using merge sort.
+
+Explanation:
+This algorithm uses the divide and conquers technique to sort elements. In this program, recursion is used to divide as well as merge elements after sorting. First I divide the whole array into two sub-arrays till sub array size is not equal to one. 
+
+And after that, while merging I check if the ith element of the left sub-array is lesser than or equal to the jth element of the right subarray if yes then I store the ith element of the left subarray into the resultant array else store the jth element of a right subarray. This process I will do this repeatedly till my all subarrays not getting empty.
+
+
+Test Cases :
+
+1) if inputted array has the wrong type of element
+
+Example:
+
+Input: 5 
+       65 23 1 89 4 
+
+Output: 1 4 23 65 89 
