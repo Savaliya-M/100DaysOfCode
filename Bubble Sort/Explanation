@@ -1,0 +1,19 @@
+Question :     
+Sort the element using Bubble sort.
+
+Explanation:
+
+In this program, first I take one for loop which starts from the first element and goes up to the last element. In this loop, I take one nested for loop which starts from the last element and goes up to the i+1th element. And in this loop, I check if an array of the jth element is lesser than the array of the j-1th element. If this condition satisfies then I swap both elements. 
+
+In this algorithm, we get 0 to i as a sorted element after each iteration.
+
+Test Cases :
+
+1) if inputted array has the wrong type of element
+
+Example:
+
+Input: 5 
+       65 23 1 89 4 
+
+Output: 1 4 23 65 89 
