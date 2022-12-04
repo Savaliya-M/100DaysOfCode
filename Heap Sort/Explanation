@@ -1,0 +1,19 @@
+Question :     
+Sort the element using Heap sort.
+
+Explanation:
+
+Heap sort sorts the element using the tree concept. It first converts the array into a tree then I will convert this tree into max heap means all the root element has a greater value than their child. After converting into a max heap I swap the root node with the last leaf node and remove that leaf node. After removing the node I will call heapify function to make the tree max heap. And repeat these steps.
+
+The heapify function checks if the root element is greater or not if it is not greater then it finds the largest child and swaps the root element with the largest child.
+
+Test Cases :
+
+1) if inputted array has the wrong type of element
+
+Example:
+
+Input: 5 
+       65 22 1 76 98 
+
+Output: 1 22 65 76 98 
