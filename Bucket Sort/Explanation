@@ -1,0 +1,21 @@
+Question :     
+Sort the element using Bucket sort.
+
+Explanation:
+
+In this program, first, we have to find how many buckets we need using the maximum element of the array. Because if buckets are not chosen properly then this algorithm also takes more time to sort the element.
+
+After that, we have to scatter all the elements into these buckets By checking whether the particular element lies between the range of the particular bucket or not.
+
+After that using any of the stable sorting algorithms we sort this element of each bucket. After Sorting this element we simply gather all the elements at last.
+
+Test Cases :
+
+1) if inputted array has the wrong type of element
+
+Example:
+
+Input: 5 
+       76 2 49 11 43 
+
+Output: 2 11 43 49 76
