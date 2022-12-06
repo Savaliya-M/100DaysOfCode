@@ -1,0 +1,24 @@
+Question :     
+Sort the element using Radix sort.
+
+Explanation:
+
+First, we find the maximum element from the array and store it in a max variable. Then I take one for loop which runs till the how many digits in the max number. for each Place m and place, we call the counting sort function and pass array, n, and place.
+
+Now I create one counting sort function. In this I store digit means a unit, tens or hundreds as provided in the parameter to the max. Then I take one more for loop which starts from 1 and goes up to n.
+
+In this loop, I check if arr[i]/place%10 > max if this condition satisfies then I assign this digit as the max digit. and then I initialize all elements of the count array as 0. Then I count of occurrence of the particular digit. 
+
+After that, we find the cumulative sum of that array and update all values as a cumulative sum. After that, I take one for loop which starts from the last index and goes up to the first index. In this loop, I store ith element to output array of count[arrr[i]/place % 10-1]th position. Now I increment the value of Count[arr[i]/place%10] by one. and then I update the value arr as an output array.
+
+
+Test Cases :
+
+1) if inputted array has the wrong type of element
+
+Example:
+
+Input: 5 
+       65 23 1 89 4 
+
+Output: 1 4 23 65 89 
