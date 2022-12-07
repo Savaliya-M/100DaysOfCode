@@ -1,0 +1,17 @@
+Question :      
+Given the number of trailing days d and a client's total daily expenditures for a period of n days, determine the number of times the client will receive a notification over all n days.
+
+Explanation:
+In this program, First I take input of the d element and then add it into a queue and also I maintain one array which counts the occurrence of the number. After that, I take another for loop and take it next to the dth element, and then I compare this element with 2 times of median of the array which contains the d number of elements.
+
+If this condition satisfies then I simply increment the count by one And at last I return this count variable.
+
+Test case:
+1) if d is greater then n
+
+Example:
+
+Input:  9 5
+        2 3 4 2 3 6 8 4 5
+
+Output: 2
