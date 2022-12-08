@@ -1,0 +1,21 @@
+Question :      
+Consider an array of n distinct integers,arr= [a[0],a[1]....a[n-1]] . George can swap any two elements of the array any number of times. An array is beautiful if the sum of arr[i] - arr[i-1] among 0<i<n is minimal.
+
+Given the array arr, determine and return the minimum number of swaps that should be performed in order to make the array beautiful.
+
+Explanation:
+In this program, I have to find that what is the minimum required step to make an unsorted array sorted either in ascending or in descending order. 
+
+For that first, I create two hashmaps which store the value as key and its index as value and then first I sort the array in ascending order and count how many steps it requires to sort the array in ascending order.
+
+After that same as ascending I sort the array in descending order and count how many steps it requires to sort the array in descending order. At last, I simply return the count whichever is minimum as output.
+
+Test case:
+1) if array is already sorted 
+
+Example:
+
+Input:  4
+        2 5 3 1
+
+Output: 2
