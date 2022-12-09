@@ -1,0 +1,21 @@
+Question :      
+Given a list of unsorted integers, arr, find the pair of elements that have the smallest absolute difference between them. If there are multiple pairs, find them all.
+
+Explanation:
+
+In this program, I first sort the given list, and then I create one hash map and min variable. In the min variable first, I assign the value as infinite.
+
+After that, I take one for loop which starts from the second element and goes up to the last element. In this, for-loop I found the difference between the ith element and the i-1th element. And then I compare this difference with the min variable if this difference is minimum then the min variable then I assign this difference as min. Then if this difference is not present on the map then I put this difference in the map. 
+
+And at last, I put the pair of elements which has the lowest difference.
+
+Test cases :
+
+1) if the difference between all the node are 0. 
+
+Example:
+
+Input:  5
+        -5 15 25 71 63
+
+Output: 63 71
