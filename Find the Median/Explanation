@@ -1,0 +1,17 @@
+Question :      
+The median of a list of numbers is essentially its middle element after sorting. The same number of elements occur after it as before. Given a list of numbers with an odd number of elements, find the median?
+
+Explanation:
+In this program, I have to find the middle element after sorting. For that as input, I received one unsorted list of elements of integer type.
+
+First I sort all the elements in ascending order and then I find the middle element for that I simply divide the size of list-1 by 2 and store it in the mid variable. At last, I simply return the element which is present in the midst index.
+
+Test case :
+1) if input list with even number of element.
+
+Example:
+
+Input:  7
+        0 1 2 4 6 5 3
+
+Output: 3
