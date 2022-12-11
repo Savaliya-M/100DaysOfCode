@@ -1,0 +1,26 @@
+Question :     
+Given two arrays of integers, find which elements in the second array are missing from the first array.
+
+Notes
+
+If a number occurs multiple times in the lists, you must ensure that the frequency of that number in both lists is the same. If that is not the case, then it is also a missing number.
+Return the missing numbers sorted ascending.
+
+Explanation:
+
+In this program, First I count the occurrence of the element of the brr array and store it in the hashmap. Then I take open for loop for arr array and check if the ith element is present in the map if yes then I fetch this element and store it in the frequency variable.
+
+If the frequency of the element is greater than one then I decrease this value by one and update the value in the hashmap. If the frequency of the element is equal to zero then I remove that element from the map. At last, I traverse the map and print the remaining value.
+
+Test Cases :
+
+1) if arr has more element then the brr
+
+Example:
+
+Input:  10
+        11 4 11 7 13 4 12 11 10 14
+        15
+        11 4 11 7 3 7 10 13 4 8 12 11 10 14 12
+
+Output: 3 7 8 10 12
