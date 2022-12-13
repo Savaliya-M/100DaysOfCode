@@ -1,0 +1,29 @@
+Question :     
+Watson gives Sherlock an array of integers. His challenge is to find an element of the array such that the sum of all 
+elements to the left is equal to the sum of all elements to the right.
+
+Explanation:
+
+In this program, First I calculate the sum of all elements in the array. Then I take one for each loop that runs for all 
+elements in the array and check 2 * x is equal to sum - y. Here initially x = 0 and y is the ith element. 
+
+If this above condition satisfies then I return "YES" else I simply add y into x. Last, if the above condition does not 
+execute then I will return the "NO".
+
+Test Cases :
+
+1) if array length is 1
+
+Example:
+
+Input:  3
+5
+1 1 4 1 1
+4
+2 0 0 0
+4
+0 0 2 0 
+
+Output: YES
+        YES
+        YES
