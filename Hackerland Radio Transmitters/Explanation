@@ -1,0 +1,18 @@
+Question :      
+Given a map of Hackerland and the transmission range, determine the minimum number of transmitters so that every house is within range of at least one transmitter. Each transmitter must be installed on top of an existing house.
+
+Explanation:
+In this program, I first sort the input array. Because our city is one-directional. Now I take one while loop in this loop I check i < size of x if this condition satisfies then I increment the count by one and assign leftStartingPoint as i and then I take one nested while loop and in this loop check if i+1 is lesser then size of x and element at i+1th index - element at leftStartingPoint index is lesser then equal to k id this condition satisfies then I increment i by one. 
+
+Now I initialize middlePoint as i and again I take one while loop and instead of leftStartingPoint now I will check for middlePoint if this condition is also satisfied then I will increment I by one. And at the end one more time I increment i by one. After that, I return the counter.
+
+Test cases :
+
+1) if the difference between all the node are 0. 
+
+Example:
+
+Input:  5 1
+        1 2 3 4 5
+
+Output: 2
