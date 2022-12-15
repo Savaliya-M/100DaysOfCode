@@ -1,0 +1,19 @@
+Question :     
+The absolute difference is the positive difference between two values a and b, is written a-b  or b-a and they are equal. If a = 3 and ,b = 2, 3-2 = 2-3 = 1. Given an array of integers, find the minimum absolute difference between any two elements in the array.
+
+Explanation:
+
+In this program, I have to find the minimum absolute distance between two numbers. for that first, I sort the elements of the array in ascending order and then I take one integer min and initialize it as the max value of an integer. 
+
+After that, I take one for loop in this loop first I count the difference between the first and second element and store its absolute value in the temp variable. After that, I compare the temp variable with the min variable if the temp variable is lesser than the min variable then I assign temp to the min. And at the end, I return the min variable.
+
+Test Cases :
+
+1) if inputted array has the wrong type of element
+
+Example:
+
+Input:  10
+        -59 -36 -13 1 -53 -92 -2 -96 -54 75
+
+Output: 1
