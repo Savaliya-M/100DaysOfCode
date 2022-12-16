@@ -1,0 +1,20 @@
+Question :      
+Given a square grid of characters in the range ascii[a-z], rearrange elements of each row alphabetically, ascending. Determine if the columns are also in ascending alphabetical order, top to bottom. Return YES if they are or NO if they are not.
+
+Explanation:
+
+In this program, First I create an array list for storing sorted strings. After that, I create one for loop In each iteration I call strsort function which returns the sorted string which I stored in the str variable and after that, I add it to the array list.
+
+After that, I store the length of the string in the len variable. Then I take one for loop which iterates for the array list and in this loop I take another for loop which iterates for a string of the list. In this loop, I compare if the i-1th strings jth character is greater than the ith string jth character if yes then I return "NO" else at the end I return "YES".
+
+Example:
+
+Input:  1
+        5
+        eabcd
+        fghij
+        olkmn
+        trpqs
+        xywuv
+
+Output: YES
