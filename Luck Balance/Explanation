@@ -1,0 +1,27 @@
+Question :      
+Lena is preparing for an important coding competition that is preceded by a number of sequential preliminary contests. Initially, her luck balance is 0. She believes in "saving luck", and wants to check her theory. Each contest is described by two integers,L[i] and T[i]:
+
+- L[i] is the amount of luck associated with a contest. If Lena wins the contest, her luck balance will decrease by L[i]; if she loses it, her luck balance will increase by L[i].
+- T[i] denotes the contest's importance rating. It's equal to 1 if the contest is important, and it's equal to 0 if it's unimportant.
+If Lena loses no more than k important contests, what is the maximum amount of luck she can have after competing in all the preliminary contests? This value may be negative.
+
+Explanation:
+
+In this program, first I take input of k and n then I take one for loop which iterates for n time and in this loop first I take input from the user lick and important and then check if the importance of this match is not equal to 1. if this condition satisfies then I add luck to max luck else I add this luck to the important contest array list.
+
+After that, I sort the array list into reverse order. Now I take one for loop which iterates for all items of the array list in this for loop I check if i is lesser than k if yes then I add this ith element into max luck else I deduce this ith element from max luck. At last, I display the value of max luck.
+
+Test cases :
+
+1) if all the matches are important. 
+
+Example:
+
+Input:  5 2
+        5 1
+        4 0
+        6 1
+        2 1
+        8 0
+
+Output: 21
