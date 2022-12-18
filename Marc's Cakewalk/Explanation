@@ -1,0 +1,16 @@
+Question :      
+Marc loves cupcakes, but he also likes to stay fit. Each cupcake has a calorie count, and Marc can walk a distance to expend those calories. If Marc has eaten j cupcakes so far, after eating a cupcake with c calories he must walk at least 2^j*c miles to maintain his weight.
+
+Explanation:
+
+In this program, first, I sort all the elements into descending order because we have to find the least mile. After that, I take one for loop which iterates for all the elements. in this, I simply count the 2 to the power of i multiplay with calories and add it to the mile. At last, I return the mile.
+
+Test case:
+1) if calories are given in negative.
+
+Example:
+
+Input:  4
+        7 4 9 6
+
+Output: 79
