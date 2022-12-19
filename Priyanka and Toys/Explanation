@@ -1,0 +1,21 @@
+Question :      
+Priyanka works for an international toy company that ships by container. Her task is to the determine the lowest cost way to combine her orders for shipping. She has a list of item weights. The shipping company has a requirement that all items loaded in a container must weigh less than or equal to 4 units plus the weight of the minimum weight item. All items meeting that requirement will be shipped in one container.
+
+What is the smallest number of containers that can be contracted to ship the items based on the given list of weights?
+
+Explanation:
+
+In this program first I sort the list of weights in ascending order. After that, I take one count variable which counts the container needed and initialize it with 1. after that I stored the first item into s. Because after sorting the minimum item is available at the first position. 
+
+After that I take one for each loop in this loop I check if a > s+4 if yes then I increment the count of containers by one and also update the s value as a. At last, I return the count variable.
+
+Test cases :
+
+1) if the all item weight is greater than the weight of the minimum weight item + 4.
+
+Example:
+
+Input:  8
+        1 2 3 21 7 12 14 21
+
+Output: 4
