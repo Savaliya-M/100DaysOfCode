@@ -1,0 +1,23 @@
+Question :   
+
+You are given two arrays, A and B, both containing N integers.
+A pair of indices (i,j) is beautiful if the ith element of array A is equal to the jth element of array B. In other words, pair (i,j) is beautiful if and only if A[i]=B[j]. A set containing beautiful pairs is called a beautiful set.
+
+A beautiful set is called pairwise disjoint if for every pair  (l[i],r[i])  belonging to the set there is no repetition of either l[i] or r[i] values.
+
+Your task is to change exactly 1 element in B so that the size of the pairwise disjoint beautiful set is maximum.
+
+Explanation:
+In this program, first I take one count array in which I store the count of the occurrence of the value which is present in list A. for that I take one for a loop. After that again I take one for loop in which first I check whether the ith element of the list B in the count array has a value greater than 0 if the condition satisfies then I increment the result by one and decrement the value of B of ith element in count array by one.
+
+After that, I check if the result is equal to the size of list A. if this condition satisfies then I return the decrement value of the result by one. else I return the incremented result variable by one.
+
+Test cases :
+1) what if the values are repeated
+
+Example:
+Input: 4
+1 2 3 4
+1 2 3 3
+
+Output: 4
