@@ -1,0 +1,30 @@
+Question :   
+
+Given an array of stick lengths, use 3 of them to construct a non-degenerate triangle with the maximum possible perimeter. Return an array of the lengths of its sides as 3 integers in non-decreasing order.
+
+1) If there are several valid triangles having the maximum perimeter:
+
+Choose the one with the longest maximum side.
+
+2) If more than one has that maximum, choose from them the one with the longest minimum side.
+
+3) If more than one has that maximum as well, print any one them.
+
+4) If no non-degenerate triangle exists, return [-1].
+
+Explanation:
+
+In this program first I sort the inputted list in ascending order. then I take one variable i and initialize it as the size of the list minus 3. then I take one while loop where I check if i>= 0. After that in this loop, I check if the sum of the ith element and i+1th element is greater than the i+2th element. if the condition satisfies then I break the loop else I decrement i by one.
+
+After that, I check if i < 0. if the condition satisfies then add -1 to the resultant list and return the resultant list. else I add ith, i+1th, and i+2th elements to the list and return the resultant list.
+
+Test cases :
+
+1) what if the values are the wrong type.
+
+Example:
+
+Input: 5
+        1 1 1 3 3
+
+Output: 1 3 3
