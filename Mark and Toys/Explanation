@@ -1,0 +1,20 @@
+Question :   
+
+Mark and Jane are very happy after having their first child. Their son loves toys, so Mark wants to buy some. There are a number of different toys lying in front of him, tagged with their prices. Mark has only a certain amount to spend, and he wants to maximize the number of toys he buys with this money. Given a list of toy prices and an amount to spend, determine the maximum number of gifts he can buy.
+
+Note Each toy can be purchased only once.
+
+Explanation:
+
+In this program first I sort the list in ascending order. Then I take one while loop in that loop and put the condition as the sum variable is lesser than the k variable. In this loop, I add an ith element to the sum. and assign I in the count variable. Then I increment i by one. and after that, I return the count variable.
+
+Test cases :
+
+1) what if the money he has is not enough to get at least one toy?
+
+Example:
+
+Input: 4 7
+        1 2 3 4
+
+Output: 3
