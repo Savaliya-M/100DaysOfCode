@@ -1,0 +1,22 @@
+Question :   
+
+There are two n-element arrays of integers, A and B. Permute them into some A' and B' such that the relation A'[i]+B'[i] >= k holds for all i where 0<=i <n.
+
+There will be q queries consisting of A, B, and k. For each query, return YES if some permutation A', B' satisfying the relation exists. Otherwise, return NO.
+
+Explanation:
+
+In this program, first I sort list A in ascending order then sort list B in descending order.  After that, I take one for loop which runs for n time. In this loop, I check if the sum of ith elements of A and B is lesser than k. if this condition satisfies then I return the "NO". At the last, if the above condition not satisfies then I return the "YES".
+
+Test cases :
+
+1) if the entered value is the wrong type. 
+
+Example:
+
+Input:  1
+        5 10
+        7 6 8 4 2
+        5 2 6 3 1
+
+Output: NO
