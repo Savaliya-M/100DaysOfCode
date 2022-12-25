@@ -1,0 +1,19 @@
+Question :   
+
+You are given an unordered array of unique integers incrementing from . You can swap any two elements a limited number of times. Determine the largest lexicographical value array that can be created by executing no more than the limited number of swaps.
+
+Explanation:
+
+In this program first I take Input of n, k, and array and also take one extra array as an index which keeps track of the index that particular value stored in which index. After that, I take one for loop for all elements of the array. In this loop, I check if k is less than or equal to 0. If this condition satisfies then I break the for a loop. After that, I check if the ith element of the array is equal to n-i. If this condition satisfies then I continue the loop.
+
+If both conditions do not satisfy then I swap the highest number with the 0th index using an index array and decrease the value of k by one. At last, I print the resultant array
+
+Test cases :
+
+1) if the number of rotations is greater than the size of the array.
+
+Example:
+Input: 5 1
+       4 2 3 5 1
+
+Output: 5 2 3 4 1
