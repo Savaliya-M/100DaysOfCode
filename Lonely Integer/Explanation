@@ -1,0 +1,20 @@
+Question :   
+
+Given an array of integers, where all elements but one occur twice, find the unique element.
+
+Explanation:
+
+In this program, First I create on hashmap. After that I take one for each loop in this loop I check if the map contains a particular key. If this condition satisfies then I simply increment its value by one. else I put this key and set its value as 1. 
+
+After that, I take another for each loop. In this loop, I check if the value of the particular key is equal to 1. If this condition satisfies then I return that particular key.
+
+Test cases :
+
+1) if the unique value is more then one.
+
+Example:
+
+Input: 9
+       4 9 95 93 57 4 57 93 9
+
+Output:  95
