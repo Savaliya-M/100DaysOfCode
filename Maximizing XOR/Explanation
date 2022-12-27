@@ -1,0 +1,14 @@
+Question :   
+
+Given two integers, l and r, find the maximal value of a xor b, written a  b, where a and b satisfy the following condition: l<= a <= b <= r
+
+Explanation:
+
+In this program, first I create one ans variable with an initial value of 0. After that, I take one for loop which starts from l and goes upto r. in this loop I take another for loop which also starts from l and goes upto r. in this loop I calculate i to the power j and store it into ans if it is maxed comparison to previous ans value. At last, I return the ans.
+
+Example:
+
+Input: 11
+       100
+
+Output: 127
