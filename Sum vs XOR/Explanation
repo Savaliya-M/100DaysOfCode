@@ -1,0 +1,20 @@
+Question :   
+
+Given an integer n, find each x such that:
+
+0<=x<=n
+n+x=n^x
+
+where ^ denotes the bitwise XOR operator. Return the number of x's satisfying the criteria.
+
+Explanation:
+
+In this program, first I take one while loop in this while loop I put a condition that is n > 0. After that in this loop, I check if n%2 is equal to 0. If this condition satisfies then I increment the count by one. And then I update the n value by n/2. At last, I return 2 to the power count. 
+
+I apply this algorithm because the input constraints are 10 to the power 15. If I apply a normal algorithm using for loop then it takes more time.
+
+Example:
+
+Input: 10
+
+Output: 4
