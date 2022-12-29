@@ -1,0 +1,16 @@
+Question :   
+
+You will be given a list of 32-bit unsigned integers. Flip all the bits (1 -> 0 and 0 -> 1) and return the result as an unsigned integer.
+
+Explanation:
+
+In this program, I have to first convert the input value into a 32-bit binary value and after that, I have to flip all 0 to 1 and 1 to 0. For that, I take 2 to the power 32 minus 1 and store it in the num variable. After that, I return the n to the power num. 
+
+Example:
+
+Input: 2
+       4
+       123456
+
+Output: 4294967291
+        4294843839
