@@ -1,0 +1,25 @@
+Question :   
+
+Two players called P1 and P2 are playing a game with a starting number of stones. Player 1 always plays first, and the two players move in alternating turns. The game's rules are as follows:
+
+In a single move, a player can remove either 2, 3, or 5 stones from the game board.
+
+If a player is unable to make a move, that player loses the game.
+
+Given the starting number of stones, find and print the name of the winner. P1 is named First and P2 is named Second. Each player plays optimally, meaning they will not make a move that causes them to lose the game if a winning move exists.
+
+Explanation:
+
+In this program I have to find the winner of the game for that I apply a modulus of 7 with the inputted value if the answer of it is greater than 1 then the winner is the first and if it is lesser than 1 the winner is second.
+
+Example:
+
+Input:5
+      6
+      7
+      10
+
+Output: First
+        First
+        Second
+        First
