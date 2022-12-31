@@ -1,0 +1,28 @@
+Question :   
+
+Two players are playing a game of Tower Breakers! Player 1 always moves first, and both players always play optimally. The rules of the game are as follows:
+
+- Initially there are n towers.
+
+- Each tower is of height m.
+
+- The players move in alternating turns.
+
+- In each turn, a player can choose a tower of height x and reduce its height to y, where 1<= y < x and y evenly divides x.
+
+- If the current player is unable to make a move, they lose the game.
+
+    Given the values of n and m, determine which player will win. If the first player wins, return 1. Otherwise, return 2.
+
+Explanation:
+
+In this program If there is an even number of towers there always player 2 will wins same as if the height of the tower is 1 then also player 2 will always win. In all other cases, player 1 will wins. so simply in this program first I check if the number of towers is even or height of the tower is 1. If this condition satisfies then I simply return 2 else I return 1.
+
+Example:
+
+Input: 2
+       2 2
+       1 4
+
+Output: 2
+        1
