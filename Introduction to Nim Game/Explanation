@@ -1,0 +1,24 @@
+Question :   
+
+Nim is the most famous two-player algorithm game. The basic rules for this game are as follows:
+
+- The game starts with a number of piles of stones. The number of stones in each pile may not be equal.
+
+- The players alternately pick up 1 or more stones from 1 pile
+
+- The player to remove the last stone wins.
+
+Explanation:
+
+In this program, I apply the logic of xor if x xor stone is equal to 0 then always player Second will win else always player First will win. So for that in this program first I create x with an initial value of 0. After that, I take one for each loop calculating x^stones. after that, I check if the value of x equals 0 then I return "Second" else I return "First".
+
+Example:
+
+Input:  2
+        2
+        1 1
+        3
+        2 1 4
+
+Output: Second
+        First
