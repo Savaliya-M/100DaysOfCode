@@ -1,0 +1,34 @@
+Question :   
+
+The rules of the games are as follows:
+
+- The game starts with n piles of chips indexed from 0 to n-1. Each pile i (where 0<=i<n) has ci chips.
+
+- The players move in alternating turns. During each move, the current player must perform either of the following actions:
+
+     - Remove one or more chips from a single pile.
+
+     - Add one or more chips to a single pile.
+
+At least 1 chip must be added or removed during each turn.
+
+- To ensure that the game ends in finite time, a player cannot add chips to any pile i more than k times.
+
+- The player who removes the last chip wins the game.
+
+Given the values of n, k, and the numbers of chips in each of the n piles, determine whether the person who wins the game is the first or second person to move. Assume both players move optimally.
+
+Explanation:
+
+In this program, There are piles with chips player has to either remove or add one or more chips from the piles. Players can add chips to the piles k times. who moves the chips, at last, will win the game. for that in this program I apply the logic of xor first I take for each loop and count the xor of all chips. At last, I check if xor is equal to 0 if the condition is satisfied then I return "Second" else I return "First".
+
+Example:
+
+Input:  2
+        2 5
+        1 2
+        3 5
+        2 1 3
+
+Output: First
+        Second
