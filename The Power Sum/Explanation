@@ -1,0 +1,18 @@
+📌 Question :   
+
+Find the number of ways that a given integer, X, can be expressed as the sum of the Nth powers of unique, natural numbers.
+
+For example, if X=13 and N=2, we have to find all combinations of unique squares adding up to 13. The only solution is 2^2 + 3^2.
+
+📌 Explanation:
+
+In this program, To find how many ways I can find that the sum of the nth power of a unique number is equal to the X. For that, I first create one function and named it a helper it will take three integer values as argument first is x, the second is n and the last one is power. In this function first I reduce the p to the power n from the x and stored it in the res variable. 
+
+After that, I check if res is equal to 0. if this condition is satisfied then I will return the 1. if this condition is not satisfied Then I check another condition if res is lesser than 0. if this condition is satisfied then I return the 0 else at the and I return the sum of responses of two recursive helper function. where I pass the res as x, n, and p+1 in the first recursive function and x, n, and p+1 in the second recursive function. 
+
+📌 Example:
+
+📌 Input: 100
+           3
+
+📌 Output: 1
