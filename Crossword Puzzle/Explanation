@@ -1,0 +1,36 @@
+📌 Question :   
+
+A 10 X 10 Crossword grid is provided to you, along with a set of words (or names of places) that need to be filled into the grid. Cells are marked either + or -. Cells marked with a - are to be filled with the word list.
+
+The following shows an example crossword from the input Crossword grid and the list of words to fit,
+
+📌 Explanation:
+
+In this program, I have to fill all - with a given list of words for that I take the first word and check all cells if the cell has - or the first letter of the word then I check if that particular word will fit in that place horizontally or vertically. If it can be filled then fill it else I will do backtracking I remove the previously filled word and then fill it in some other position. And I will repeat this process until and unless all words can be filled in the specific position. 
+
+📌 Example:
+
+📌 Input: 
++-++++++++
++-++++++++
++-++++++++
++-----++++
++-+++-++++
++-+++-++++
++++++-++++
+++------++
++++++-++++
++++++-++++
+LONDON;DELHI;ICELAND;ANKARA
+
+📌 Output: 
++L++++++++
++O++++++++
++N++++++++
++DELHI++++
++O+++C++++
++N+++E++++
++++++L++++
+++ANKARA++
++++++N++++
++++++D++++
