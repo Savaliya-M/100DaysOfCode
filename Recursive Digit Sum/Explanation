@@ -1,0 +1,21 @@
+📌 Question :   
+
+We define the super digit of an integer x using the following rules:
+
+Given an integer, we need to find the super digit of the integer.
+
+📍 If x has only 1 digit, then its super digit is x.
+
+📍 Otherwise, the super digit of x is equal to the super digit of the sum of the digits of x.
+
+📌 Explanation:
+
+In this program, I have to find the super sum of the given number. For that as input I will receive the number and k means I have to concatenate the same number k time and after that, I have to find the super sum.
+
+For that, I find the super sum of the inputted number and after that, I multiplied with k then if the result will be lesser than 9 then this is our answer if it is not then I have to find the super sum of the multiplied value and whichever digit I get it is our answer.
+
+📌 Example:
+
+📌 Input:  9875 4
+
+📌 Output:  8
