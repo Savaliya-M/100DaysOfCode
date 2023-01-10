@@ -1,0 +1,17 @@
+📌 Question :   
+
+Lauren has a chart of distinct projected prices for a house over the next several years. She must buy the house in one year and sell it in another, and she must do so at a loss. She wants to minimize her financial loss.
+
+📌 Explanation:
+
+In this program, first I create one hashmap and store all prices as a key, and index it as the value in that map. After that, I sort the price list in ascending order. After that, I take one for loop which starts from the last price and goes up to the second. 
+
+In this loop first I will check if the price of i minus the price of i-1 is less than the loss. if this condition is satisfied then I check if the year of the price i is lesser than the year of price i-1. If this condition is satisfied then I will assign a price of i minus the price of i-1 to loss. In the end, I will return the loss.
+
+📌 Example:
+📌 Input:
+5
+20 7 8 2 5
+
+📌 Output:
+2
