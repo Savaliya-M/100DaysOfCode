@@ -1,0 +1,16 @@
+📌 Question :   
+
+Given an array of integers and a target value, determine the number of pairs of array elements that have a difference equal to the target value.
+
+📌 Explanation:
+
+In this program, First I sort the array in ascending order then I take one for loop in this loop I take another nested for loop which starts from i +1 in this loop I check if the difference between elements of i and element of j is equal to k. if the condition is satisfied then I increment the count by one. else I check if the difference is greater than k. if the condition is satisfied then I break the for loop to minimize time complexity. At last, I return the count.
+
+📌 Example:
+
+📌 Input:
+5 2
+1 5 3 4 2
+
+📌 Output:
+3
