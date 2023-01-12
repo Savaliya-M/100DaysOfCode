@@ -1,0 +1,31 @@
+📌 Question :   
+
+Consider a matrix where each cell contains either a 0 or a 1. Any cell containing a 1 is called a filled cell. Two cells are said to be connected if they are adjacent to each other horizontally, vertically, or diagonally. In the following grid, all cells marked X are connected to the cell marked Y.
+
+XXX
+XYX  
+XXX    
+
+If one or more filled cells are also connected, they form a region. Note that each cell in a region is connected to zero or more cells in the region but is not necessarily directly connected to all the other cells in the region.
+
+Given an n x m matrix, find and print the number of cells in the largest region in the matrix. Note that there may be more than one region in the matrix.
+
+📌 Explanation:
+
+In this program, first I take two nested for loops one for rows and the second for columns in this loop first I check if the element of ith row and jth column is equal to 1 if the condition is satisfied then I call helper function, and whichever is max either max variable or value return by helper function I store it into a max variable.
+
+In the helper function, first I check if i and j which is passed as a parameter is not getting out of range if it is then I return 0. Then I set that particular element to 0 as visited. then I take one size variable and assign it as 1. after that I take two nested loops one for the row which starts from i-1 and goes to i+1 and the same second for the column. in this loop I call the helper function recursively and whatever the answer it gives I plus into the size variable. At last, I return that size variable.
+
+📌 Example:
+
+📌 Input:
+5
+5
+1 1 0 0 0
+0 1 1 0 0
+0 0 1 0 1
+1 0 0 0 1
+0 1 0 1 1
+
+📌 Output:
+5
