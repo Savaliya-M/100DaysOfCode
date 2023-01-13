@@ -1,0 +1,29 @@
+📌 Question :   
+
+There is an undirected tree where each vertex is numbered from 1 to n, and each contains a data value. The sum of a tree is the sum of all its nodes' data values. If an edge is cut, two smaller trees are formed. The difference between two trees is the absolute value of the difference in their sums.
+
+Given a tree, determine which edge to cut so that the resulting trees have a minimal difference between them, then return that difference.
+
+📌 Explanation:
+
+In this program, First I create one Hashmap and in this hashmap, I store all parent node and their child nodes. after that, I create one dfs function which takes stating node, data, hashmap, sum array, and visited array. In this function first I create a stack and push starting node. After that, I take one while loop which runs till the stack is not empty. In this while loop I peek one node from the stack and store it into curr variable and mark this node as visited after that I take one variable done and initialize it to true. 
+
+After that, I take one for each loop for children of the curr node and if its children are not visited then I push it to stack and assign false to done. After that, I check if done equals true. if the condition is satisfied then I count the sum of all children of curr node.
+
+After that, I take one for loop and count the difference of all pairs and also find the minimum difference from then and return this 
+
+📌 Example:
+
+📌 Input:
+
+6
+100 200 100 500 100 600
+1 2
+2 3
+2 5
+4 5
+5 6
+
+📌 Output:
+
+400
