@@ -1,0 +1,33 @@
+📌 Question :   
+
+We call an quadruple of positive integers,(W,X,Y,Z) , beautiful if the following condition is true:
+
+W^X^Y^Z != 0 
+
+Given A, B, C, and D, count the number of beautiful quadruples of the form (W,X,Y,Z) where the following constraints hold:
+
+📍 1<=W<=A
+📍 1<=X<=B
+📍 1<=Y<=C
+📍 1<=Z<=D
+
+When you count the number of beautiful quadruples, you should consider two quadruples as the same if the following are true:
+
+📍 They contain the same integers.
+
+📍 Number of times each integers occur in the quadruple is same.
+
+📌 Explanation:
+
+In this program, First I store all values in one array and then I sort the array. After that, I take two nested loops for the last two numbers. In this loop first I calculate ai^bi and then I store this value if not present else update its value by incrementing by one in the map and incrementing the count by one. 
+
+Now same I do for the first two digits but the only difference is in the inner loop I check for w is lesser than or equal to a minimum of arr of 0 or x. After that, I take one for loop for removing duplicate pairs from the count. At last, I return the count.
+
+📌 Example:
+📌 Input:
+
+1 2 3 4
+
+📌 Output:
+
+11
