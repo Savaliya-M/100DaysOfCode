@@ -1,0 +1,17 @@
+📌 Question :  
+
+Maria plays college basketball and wants to go pro. Each season she maintains a record of her play. She tabulates the number of times she breaks her season record for most points and least points in a game. Points scored in the first game establish her record for the season, and she begins counting from there.
+
+📌 Explanation:
+
+In This program first I create four variables: min, max, highest record break count, and lowest count. Then I take one for each loop In this loop I check if the current element is greater than max if true then I increment the record break count by one and assign the value in a max variable. same for the lowest score; at last, I store both counts in ArrayList and return this array list.
+
+📌 Example:
+📌 Input:
+
+9
+10 5 20 20 4 5 2 25 1
+
+📌 Output:
+
+2 4
