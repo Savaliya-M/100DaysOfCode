@@ -1,0 +1,21 @@
+📌 Question :
+
+Your goal is to find the number of ways to construct an array such that consecutive positions contain different values.
+
+Specifically, we want to construct an array with n elements such that each element between 1 and k, is inclusive. We also want the first and last elements of the array to be 1 and x.
+
+Given n, k, and x, find the number of ways to construct such an array. Since the answer may be large, only find it modulo 10^9+7.
+
+📌 Explanation:
+
+In this program first I create two arrays a and b of size n After that if the k value is 1 then I assign the 0th element of a array as 1 else 0. and the opposite on array b. After that, I take one for loop which I assign an i-1th element of b in a of i-1, and also in b of i-1th position I apply one formula to find how many possible arrays can be formed which doesn't have x as a last element. At last, I return the n-1th element of array a.
+
+📌 Example:
+
+📌 Input:
+
+4 3 2
+
+📌 Output:
+
+3
