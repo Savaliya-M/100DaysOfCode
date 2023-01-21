@@ -1,0 +1,18 @@
+📌 Question :
+
+Given an amount and the denominations of coins available, determine how many ways change can be made for the amount. There is a limitless supply of each coin type.
+
+📌 Explanation:
+
+In this program, First I create one Array of n+1 size and after that, I assign 1 to 0th position. Then I take two nested for loops. In which the outer for loop runs for the coins list and the inner for loop starts from coins of the ith element to n+1. In this for loop, I assign j-coins of the ith element of numcoins array to the jth position of the nums array. At last, I return the numscoins array of the nth element.
+
+📌 Example:
+
+📌 Input:
+
+4 3
+1 2 3
+
+📌 Output:
+
+4
