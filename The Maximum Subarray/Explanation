@@ -1,0 +1,26 @@
+📌 Question :
+
+We define a subsequence as any subset of an array. We define a subarray as a contiguous subsequence in an array.
+
+Given an array, find the maximum possible sum among:
+
+1. all nonempty subarrays.
+
+2. all nonempty subsequences.
+
+Print the two values as space-separated integers on one line.
+
+📌 Explanation:
+
+In this program, I have to find two sums one is the maximum subsequence sum and the second is the maximum sum. for that If the previous sum is negative then I reset it to zero as I need to calculate the max sum of contagious elements. If I include a negative sum then my total sum will be less. Then I add a current element to the sum of previous contagious elements. After that, I Update the max sum of contiguous elements with the previous contagious sum only if it is lesser.
+
+For the max sum of non-contagious elements If I have positive numbers then it is simply the sum of all positive numbers Else it is the max negative number as adding two negative numbers always leads to less number. Hence, I first check if the current element is positive. If yes, I check if I have had positive numbers till the current element by checking the current max Sum If the current max sum is positive, I add the current element to the current max sum Else, I discard the current max sum as it was negative and assign it to the current element. Else, I assign the max sum to a max of the current sum and current element. At last, I create one Arraylist and add the maximum sum of continuous elements and the maximum sum of elements and return this list.
+
+📌 Example:
+
+📌 Input:
+6
+2 -1 2 3 4 -5
+
+📌 Output:
+10 11
