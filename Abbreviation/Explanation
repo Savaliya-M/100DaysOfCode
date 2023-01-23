@@ -1,0 +1,26 @@
+📌 Question :
+
+You can perform the following operations on the string, a:
+
+1. Capitalize zero or more of a's lowercase letters.
+
+2. Delete all of the remaining lowercase letters in a.
+
+Given two strings, a and b, determine if it's possible to make a equal to b as described. If so, print YES on a new line. Otherwise, print NO.
+
+📌 Explanation:
+
+In this program, first, I check if the length of string 'a' is less than that of string 'b', then I return "NO". Else, I create a multidimensional boolean array. Then, I take two nested for loops; the outer loop for the string 'a' and the inner loop for string 'b'. In this loop, I check if j is greater than i. If this condition is satisfied, then I store 'false' in the dp array at position i,j. Else, I check if i and j are equal to 0. If yes, then I store 'true' in the i,j position of the dp array. Else, I check if j is equal to 0. If yes, then I check if the character is lowercase and the value of dp at position i-1,j is equal to true. If both are true, then I store 'true' in the ith row and jth column position of the dp array. Else, I check if the character at i-1 is uppercase. If yes, then I check if the character at i-1 is equal to the character at j-1 and the value of dp at position i-1 and j-1 is true. If both are true, then I store 'true' in the ith row and jth column of the dp array. Else, if either of these are true or the value of dp at position i-1 and j is true, then I store 'true' in the ith row and jth column of the dp array. Else, I store 'false'. At last, if the value of dp at the a.length row and b.length column is true, then I return "YES", else "NO".
+
+📌 Example:
+
+📌 Input:
+
+1
+daBcd
+ABC
+
+📌 Output:
+
+YES
+
