@@ -4,7 +4,7 @@ Consider an array, A, of length n. We can split A into contiguous segments calle
 
 📌 Explanation:
 
-In this program, First I have to find all possible pairs of sub array from the given array and then I have to calculate sum of that array multiply by size of that array. for that I take one for loop In this loop first I calculate left then right. After that I add both left and right and minus the n-1th element of powers array. After that I apply mod and store it to sum variable. At last print the sum variable.
+In this program, First I have to find all possible pairs of sub-array from the given array, and then I have to calculate the sum of that array multiplied by the size of that array. for that I take one for loop In this loop first I calculate left then right. After that, I add both left and right and minus the n-1th element of the powers array. After that, I apply mod and store it to sum variable. At last print the sum variable.
 
 📌 Example:
 📌 Input:
