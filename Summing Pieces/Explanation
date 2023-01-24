@@ -1,0 +1,16 @@
+📌 Question :
+
+Consider an array, A, of length n. We can split A into contiguous segments called pieces and store them as another array, B. We consider the value of a piece in some array B to be (Sum of all numbers in the piece) x (length of the piece), and we consider the total value of some array B to be the sum of the values for all pieces in that B. Given A, find the total values for all possible 's, sum them together, and print this sum modulo (10^9 +7) on a new line.
+
+📌 Explanation:
+
+In this program, First I have to find all possible pairs of sub array from the given array and then I have to calculate sum of that array multiply by size of that array. for that I take one for loop In this loop first I calculate left then right. After that I add both left and right and minus the n-1th element of powers array. After that I apply mod and store it to sum variable. At last print the sum variable.
+
+📌 Example:
+📌 Input:
+
+3
+1 3 6
+
+📌 Output:
+73
