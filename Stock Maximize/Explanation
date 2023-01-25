@@ -1,0 +1,24 @@
+📌 Question :
+
+Your algorithms have become so good at predicting the market that you now know what the share price of Wooden Orange Toothpicks Inc. (WOT) will be for the next number of days.
+
+Each day, you can either buy one share of WOT, sell any number of shares of WOT that you own, or not make any transaction at all. What is the maximum profit you can obtain with an optimum trading strategy?
+
+📌 Explanation:
+
+In this program, I first create a dp array and a variable called max, and initialize it to the last element of the prices list. I then take a for loop which starts from the last element and goes to the first element. In each iteration, I check if the element in the ith position is greater than max. If it is, I assign that element as max and then assign max to the ith position of the dp array.
+
+After that, I take a variable called sum and then take another for a loop. In this loop, I subtract the prices of the ith element from the dp of the ith element and add it to the sum variable. At last, I return the sum.
+
+📌 Example:
+📌 Input:
+
+4
+1 2 3 4
+5
+5 4 3 4 5
+
+📌 Output:
+
+6
+4
