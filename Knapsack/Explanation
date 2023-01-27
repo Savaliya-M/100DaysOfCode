@@ -1,0 +1,21 @@
+📌 Question :
+
+Given an array of integers and a target sum, determine the sum nearest to but not exceeding the target that can be created. To create the sum, use any element of your array zero or more times.
+
+📌 Explanation:
+
+In this program, I first create a boolean array of size k+1. Then, I take two nested for loops. In the inner loop, I check if the jth element of the sack array is true. If it is, I break the loop. If it is not, I check if j minus the pth element of weights is greater than 0 and j minus the pth element of weights is true. If it is, I assign true to the jth element of the sack. After that, I check from the last element in the sack array. If I find true anywhere, I print i and return from the for loop. If I do not find true anywhere, I print 0 at the end.
+
+📌 Example:
+
+📌 Input:
+
+3 12
+1 6 9
+5 9
+3 4 4 4 8
+
+📌 Output:
+
+12
+9
