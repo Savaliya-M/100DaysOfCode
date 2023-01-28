@@ -1,0 +1,20 @@
+📌 Question :
+
+Shaka and his brother have created a boring game which is played like this:
+
+They take a word composed of lowercase English letters and try to get the maximum possible score by building exactly 2 palindromic subsequences. The score obtained is the product of the length of these 2 subsequences.
+
+📌 Explanation:
+
+In this program, first, a two-dimensional array "dp" is created. Then, two nested for loops are taken. A variable "j" is created and assigned the value of "i + l - 1". If "l" is equal to 1, the value 1 is stored in the "i, j" position of the "dp" array. If "l" is equal to 2 and the character at position "i" is equal to the character at position "j", the value 2 is stored in the "i, j" position of the "dp" array. If the characters at positions "i" and "j" are equal, the value of "dp[i + 1][j - 1] + 2" is stored in the "i, j" position of the "dp" array. If they are not equal, the maximum value between "dp[i + 1][j]" and "dp[i][j - 1]" is stored in the "i, j" position of the "dp" array.
+
+After that, a variable "max" is created and initialized with the minimum value of integer. A for loop is taken and "max" is assigned the maximum value either "dp[0][k]" or "dp[k + 1][string length - 1]". Finally, "max" is returned.
+
+📌 Example:
+📌 Input:
+
+eeegeeksforskeeggeeks
+
+📌 Output:
+
+50
